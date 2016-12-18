@@ -82,8 +82,8 @@ class WeatherInfo{
     
     func getWindDirection() -> String {
         
-        let directions = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE",
-            "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
+        let directions = ["North", "North East", "North Eeast", "East North", "East", "South East", "South East", "South East",
+            "South", "SSW", "South West", "West South", "West", "West North", "North West", "North West"];
         
         let i:Int = Int((Double(self.windDir!) + 11.25)/22.5);
         
