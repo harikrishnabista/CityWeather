@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA543E78029251604BCB181 /* Pods_CityWhether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2475A8CA930966D52BC0F728 /* Pods_CityWhether.framework */; };
+		564DE6381E06247600A5C677 /* UtilitiesFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DE6371E06247600A5C677 /* UtilitiesFunctions.swift */; };
+		566A909E1E05E6FE0018E6B8 /* EnterLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A909D1E05E6FE0018E6B8 /* EnterLocationViewController.swift */; };
+		566A90A01E05E8130018E6B8 /* CityWhetherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A909F1E05E8130018E6B8 /* CityWhetherTableViewController.swift */; };
+		566A90A21E05F0D60018E6B8 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A90A11E05F0D50018E6B8 /* WeatherInfo.swift */; };
+		566A90A41E0612CD0018E6B8 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A90A31E0612CD0018E6B8 /* UserLocation.swift */; };
 		568D2C541E05E34900BDDDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D2C531E05E34900BDDDA3 /* AppDelegate.swift */; };
-		568D2C561E05E34900BDDDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D2C551E05E34900BDDDA3 /* ViewController.swift */; };
 		568D2C591E05E34900BDDDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568D2C571E05E34900BDDDA3 /* Main.storyboard */; };
 		568D2C5B1E05E34900BDDDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568D2C5A1E05E34900BDDDA3 /* Assets.xcassets */; };
 		568D2C5E1E05E34900BDDDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568D2C5C1E05E34900BDDDA3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2475A8CA930966D52BC0F728 /* Pods_CityWhether.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityWhether.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462B985A6153106769920622 /* Pods-CityWhether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityWhether.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityWhether/Pods-CityWhether.release.xcconfig"; sourceTree = "<group>"; };
+		564DE6371E06247600A5C677 /* UtilitiesFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilitiesFunctions.swift; sourceTree = "<group>"; };
+		566A909D1E05E6FE0018E6B8 /* EnterLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterLocationViewController.swift; sourceTree = "<group>"; };
+		566A909F1E05E8130018E6B8 /* CityWhetherTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityWhetherTableViewController.swift; sourceTree = "<group>"; };
+		566A90A11E05F0D50018E6B8 /* WeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		566A90A31E0612CD0018E6B8 /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		568D2C501E05E34900BDDDA3 /* CityWhether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityWhether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568D2C531E05E34900BDDDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		568D2C551E05E34900BDDDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		568D2C581E05E34900BDDDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		568D2C5A1E05E34900BDDDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568D2C5D1E05E34900BDDDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568D2C5F1E05E34900BDDDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD64948330F8A1553DD5705C /* Pods-CityWhether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityWhether.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityWhether/Pods-CityWhether.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA543E78029251604BCB181 /* Pods_CityWhether.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12721D0F371FD89AF679517F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD64948330F8A1553DD5705C /* Pods-CityWhether.debug.xcconfig */,
+				462B985A6153106769920622 /* Pods-CityWhether.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16F8AD903454B68E6C554317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2475A8CA930966D52BC0F728 /* Pods_CityWhether.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		568D2C471E05E34900BDDDA3 = {
 			isa = PBXGroup;
 			children = (
 				568D2C521E05E34900BDDDA3 /* CityWhether */,
 				568D2C511E05E34900BDDDA3 /* Products */,
+				12721D0F371FD89AF679517F /* Pods */,
+				16F8AD903454B68E6C554317 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +86,16 @@
 		568D2C521E05E34900BDDDA3 /* CityWhether */ = {
 			isa = PBXGroup;
 			children = (
+				564DE6371E06247600A5C677 /* UtilitiesFunctions.swift */,
 				568D2C531E05E34900BDDDA3 /* AppDelegate.swift */,
-				568D2C551E05E34900BDDDA3 /* ViewController.swift */,
 				568D2C571E05E34900BDDDA3 /* Main.storyboard */,
 				568D2C5A1E05E34900BDDDA3 /* Assets.xcassets */,
 				568D2C5C1E05E34900BDDDA3 /* LaunchScreen.storyboard */,
 				568D2C5F1E05E34900BDDDA3 /* Info.plist */,
+				566A909D1E05E6FE0018E6B8 /* EnterLocationViewController.swift */,
+				566A909F1E05E8130018E6B8 /* CityWhetherTableViewController.swift */,
+				566A90A11E05F0D50018E6B8 /* WeatherInfo.swift */,
+				566A90A31E0612CD0018E6B8 /* UserLocation.swift */,
 			);
 			path = CityWhether;
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 568D2C621E05E34900BDDDA3 /* Build configuration list for PBXNativeTarget "CityWhether" */;
 			buildPhases = (
+				C669D6D34BB69DB4FA34E737 /* [CP] Check Pods Manifest.lock */,
 				568D2C4C1E05E34900BDDDA3 /* Sources */,
 				568D2C4D1E05E34900BDDDA3 /* Frameworks */,
 				568D2C4E1E05E34900BDDDA3 /* Resources */,
+				92ECCA8288DDF6AA9AC8AAFD /* [CP] Embed Pods Frameworks */,
+				802A570493A47D305A1D65DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +171,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		802A570493A47D305A1D65DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityWhether/Pods-CityWhether-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92ECCA8288DDF6AA9AC8AAFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityWhether/Pods-CityWhether-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C669D6D34BB69DB4FA34E737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		568D2C4C1E05E34900BDDDA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568D2C561E05E34900BDDDA3 /* ViewController.swift in Sources */,
+				566A90A21E05F0D60018E6B8 /* WeatherInfo.swift in Sources */,
+				566A909E1E05E6FE0018E6B8 /* EnterLocationViewController.swift in Sources */,
+				564DE6381E06247600A5C677 /* UtilitiesFunctions.swift in Sources */,
+				566A90A01E05E8130018E6B8 /* CityWhetherTableViewController.swift in Sources */,
 				568D2C541E05E34900BDDDA3 /* AppDelegate.swift in Sources */,
+				566A90A41E0612CD0018E6B8 /* UserLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +350,12 @@
 		};
 		568D2C631E05E34900BDDDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD64948330F8A1553DD5705C /* Pods-CityWhether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4C78D8QSR;
 				INFOPLIST_FILE = CityWhether/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meroapp.CityWhether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +365,12 @@
 		};
 		568D2C641E05E34900BDDDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462B985A6153106769920622 /* Pods-CityWhether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4C78D8QSR;
 				INFOPLIST_FILE = CityWhether/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meroapp.CityWhether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +397,7 @@
 				568D2C641E05E34900BDDDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
