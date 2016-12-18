@@ -1,0 +1,6 @@
+framework module Pods_CityWhether {
+  umbrella header "Pods-CityWhether-umbrella.h"
+
+  export *
+  module * { export * }
+}
